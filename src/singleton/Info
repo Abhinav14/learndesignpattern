@@ -1,0 +1,13 @@
+##To make a class singleton, we first need to make its constructor PRIVATE and 
+provide a public static method, which creates object of the singleton class.
+
+#Order of Singleton classes and Test classes
+1. SingletonEager - TestSingletonEager
+2. SingletonLazy - TestSingletonLazy
+3. SingletonTester --> to test if Reflection can penetrate Singleton
+4. SingletonReflectionSafe - SingletonTester2
+5. SingletonThreadTester --> to check if reflection safe singleton is thread safe or not. One of the outputs -
+	instance1: 1530740446
+	instance2: 927687912
+	
+6. 
